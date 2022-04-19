@@ -49,7 +49,7 @@ public class UiManager : MonoBehaviour
     public void LoadScore()
     {
         string path = Application.persistentDataPath + "/savefile.json";
-
+        
         if(File.Exists(path))
         {
             string json = File.ReadAllText(path);

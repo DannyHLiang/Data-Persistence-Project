@@ -15,8 +15,6 @@ public class IntroScreen : MonoBehaviour
     private void Start()
     {
         UiManager.Instance.LoadScore();
-        Debug.Log(UiManager.Instance.Name);
-        Debug.Log(UiManager.Instance.Score);
         HighScore.text = $"HighScore: {UiManager.Instance.Name} {UiManager.Instance.Score}";
     }
 
